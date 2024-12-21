@@ -1,0 +1,74 @@
+.registration {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.registration .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.registration .registration__notice {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  font-family: "Lato", sans-serif;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+}
+.registration .registration__form {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+}
+.registration .registration__form input {
+  background-color: initial;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #000;
+  font-size: 15px;
+  padding: 20px;
+}
+.registration .registration__form .registration__button {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.registration .registration__form .registration__button:hover {
+  background-color: #fff;
+  color: #000;
+  scale: 1.1;
+}
